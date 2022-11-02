@@ -23,7 +23,51 @@
     height: 2%;;
 }
 
-#cards{
-    padding-top: 10px;
+
+
+
+#cardTitle{
+    color: gray;
+    text-align: left;
+    margin-bottom: 0rem;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+#dateEst{
+    display: flex;
+    justify-content: space-between;
+}
+
+#startDate{
+    text-align: left;
+}
+
+#estimate{
+    text-align: right;
+  }
+
+#sm{
+    font-size: 9px;
+    font-style: italic;
+}
+
+#containerEst{
+    text-align: center;
+    outline: 1px solid gray;
+    padding-top: 5px;
     padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.card{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
